@@ -19,7 +19,7 @@ function App() {
     setTasks(newTasks);
   };
 
-  // Toggle task complete
+
   const toggleComplete = (index) => {
     const newTasks = [...tasks];
     newTasks[index].completed = !newTasks[index].completed;
